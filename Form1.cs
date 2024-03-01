@@ -28,21 +28,6 @@ namespace CarShopGUI
 
         }
 
-        private void make_lbl_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void model_lbl_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void total_lbl_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void create_car_btn_Click(object sender, EventArgs e)
         {
             try
@@ -53,7 +38,6 @@ namespace CarShopGUI
                 {
                     throw new InvalidOperationException();
                 }
-               
                 else
                 {
                     MessageBox.Show("Car added to list");
@@ -100,11 +84,6 @@ namespace CarShopGUI
             decimal total = store.Checkout();
             total_lbl.Text = "$" + total.ToString();
             cartBindingSource.ResetBindings(false);
-        }
-
-        private void make_txt_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

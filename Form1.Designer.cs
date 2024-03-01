@@ -96,7 +96,6 @@
             this.make_txt.Name = "make_txt";
             this.make_txt.Size = new System.Drawing.Size(100, 20);
             this.make_txt.TabIndex = 3;
-            this.make_txt.TextChanged += new System.EventHandler(this.make_txt_TextChanged);
             // 
             // price_lbl
             // 
@@ -115,7 +114,6 @@
             this.model_lbl.Size = new System.Drawing.Size(39, 13);
             this.model_lbl.TabIndex = 1;
             this.model_lbl.Text = "Model:";
-            this.model_lbl.Click += new System.EventHandler(this.model_lbl_Click);
             // 
             // make_lbl
             // 
@@ -125,7 +123,6 @@
             this.make_lbl.Size = new System.Drawing.Size(37, 13);
             this.make_lbl.TabIndex = 0;
             this.make_lbl.Text = "Make:";
-            this.make_lbl.Click += new System.EventHandler(this.make_lbl_Click);
             // 
             // groupBox1
             // 
@@ -191,7 +188,6 @@
             this.total_txt_lbl.Size = new System.Drawing.Size(58, 13);
             this.total_txt_lbl.TabIndex = 8;
             this.total_txt_lbl.Text = "Total Cost:";
-            this.total_txt_lbl.Click += new System.EventHandler(this.total_lbl_Click);
             // 
             // total_lbl
             // 
