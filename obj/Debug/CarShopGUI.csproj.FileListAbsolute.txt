@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\CarShopGUI\CarShopGUI\bin\Debug\CarShopGUI.exe.config
+C:\Users\User\source\repos\CarShopGUI\CarShopGUI\bin\Debug\CarShopGUI.exe
+C:\Users\User\source\repos\CarShopGUI\CarShopGUI\bin\Debug\CarShopGUI.pdb
+C:\Users\User\source\repos\CarShopGUI\CarShopGUI\obj\Debug\CarShopGUI.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\CarShopGUI\CarShopGUI\obj\Debug\CarShopGUI.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\CarShopGUI\CarShopGUI\obj\Debug\CarShopGUI.Form1.resources
+C:\Users\User\source\repos\CarShopGUI\CarShopGUI\obj\Debug\CarShopGUI.Properties.Resources.resources
+C:\Users\User\source\repos\CarShopGUI\CarShopGUI\obj\Debug\CarShopGUI.csproj.GenerateResource.cache
+C:\Users\User\source\repos\CarShopGUI\CarShopGUI\obj\Debug\CarShopGUI.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\CarShopGUI\CarShopGUI\obj\Debug\CarShopGUI.exe
+C:\Users\User\source\repos\CarShopGUI\CarShopGUI\obj\Debug\CarShopGUI.pdb
