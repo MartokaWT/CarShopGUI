@@ -1,6 +1,6 @@
 ﻿namespace CarShopGUI
 {
-    partial class Form1
+    partial class CarShopGUI
     {
         /// <summary>
         /// Required designer variable.
@@ -64,7 +64,6 @@
             this.createCarGroup.TabIndex = 0;
             this.createCarGroup.TabStop = false;
             this.createCarGroup.Text = "Create a Car";
-            this.createCarGroup.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // create_car_btn
             // 
@@ -198,7 +197,7 @@
             this.total_lbl.TabIndex = 9;
             this.total_lbl.Text = "$0.00";
             // 
-            // Form1
+            // CarShopGUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -210,8 +209,8 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.createCarGroup);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "CarShopGUI";
+            this.Text = "cars.bg";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.createCarGroup.ResumeLayout(false);
             this.createCarGroup.PerformLayout();

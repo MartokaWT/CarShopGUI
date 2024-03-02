@@ -1,31 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
 using System.Windows.Forms;
 
 namespace CarShopGUI
 {
-    public partial class Form1 : Form
+    public partial class CarShopGUI : Form
     {
-        const string NullOrEmptyException = "The text box cannot be empty!";
         Store store = new Store();
         BindingSource carInventoryBindingSource = new BindingSource();
         BindingSource cartBindingSource = new BindingSource();
 
-        public Form1()
+        public CarShopGUI()
         {
             InitializeComponent();
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
         }
 
         private void create_car_btn_Click(object sender, EventArgs e)
@@ -45,7 +32,7 @@ namespace CarShopGUI
                     carInventoryBindingSource.ResetBindings(false);
                     make_txt.Text = " ";
                     model_txt.Text = " ";
-                    price_txt.Text = " ";
+                    price_txt.Text = " ";  
                 }
 
             }
@@ -75,7 +62,6 @@ namespace CarShopGUI
         {
             Car selected = (Car)lst_inventory.SelectedItem;
             store.ShoppingList.Add(selected);
-
             cartBindingSource.ResetBindings(false);
         }
 

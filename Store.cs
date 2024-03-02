@@ -18,7 +18,7 @@ namespace CarShopGUI
         {
             decimal totalCost = 0;
 
-            foreach (var car in CarList)
+            foreach (var car in ShoppingList)
             {
                 totalCost += car.Price;
             }
