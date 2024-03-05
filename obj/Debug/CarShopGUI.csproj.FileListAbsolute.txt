@@ -9,3 +9,13 @@ C:\Users\User\source\repos\CarShopGUI\CarShopGUI\obj\Debug\CarShopGUI.csproj.Cor
 C:\Users\User\source\repos\CarShopGUI\CarShopGUI\obj\Debug\CarShopGUI.exe
 C:\Users\User\source\repos\CarShopGUI\CarShopGUI\obj\Debug\CarShopGUI.pdb
 C:\Users\User\source\repos\CarShopGUI\CarShopGUI\obj\Debug\CarShopGUI.CarShopGUI.resources
+D:\repos\CarShopGUI\bin\Debug\CarShopGUI.exe.config
+D:\repos\CarShopGUI\bin\Debug\CarShopGUI.exe
+D:\repos\CarShopGUI\bin\Debug\CarShopGUI.pdb
+D:\repos\CarShopGUI\obj\Debug\CarShopGUI.csproj.AssemblyReference.cache
+D:\repos\CarShopGUI\obj\Debug\CarShopGUI.CarShopGUI.resources
+D:\repos\CarShopGUI\obj\Debug\CarShopGUI.Properties.Resources.resources
+D:\repos\CarShopGUI\obj\Debug\CarShopGUI.csproj.GenerateResource.cache
+D:\repos\CarShopGUI\obj\Debug\CarShopGUI.csproj.CoreCompileInputs.cache
+D:\repos\CarShopGUI\obj\Debug\CarShopGUI.exe
+D:\repos\CarShopGUI\obj\Debug\CarShopGUI.pdb
