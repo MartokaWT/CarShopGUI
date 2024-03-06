@@ -104,10 +104,6 @@ namespace CarShopGUI
             {
                 return;
             }
-
-            //Марто, Пешо - Програма
-            //Тедо, Дейвид - Презентация
-            //Божидар, Цецо - Представяне на проекта
         }
 
         private void credits_btn_Click(object sender, EventArgs e)
@@ -146,10 +142,8 @@ namespace CarShopGUI
             {
                 isDarkModeOn = true;
 
-                //Changes the color of the background for the whole app.
                 BackColor = ColorTranslator.FromHtml("#1c1c1c");
 
-                //Changes the color of the background and the text for groups and lists.
                 addCarGroup.ForeColor = Color.White;
 
                 carInventoryGroup.BackColor = ColorTranslator.FromHtml("#1e1e1e");
@@ -164,11 +158,9 @@ namespace CarShopGUI
                 lst_inventory.BackColor = ColorTranslator.FromHtml("#2d2d2d");
                 lst_inventory.ForeColor = Color.White;
 
-                //Changes the color of the total labels.
                 total_txt_lbl.ForeColor = Color.White;
                 total_lbl.ForeColor = Color.White;
 
-                //Changes the color of the textboxes.
                 make_txt.BackColor = ColorTranslator.FromHtml("#2d2d2d");
                 make_txt.ForeColor = Color.White;
                 model_txt.BackColor = ColorTranslator.FromHtml("#2d2d2d");
@@ -176,7 +168,6 @@ namespace CarShopGUI
                 price_txt.BackColor = ColorTranslator.FromHtml("#2d2d2d");
                 price_txt.ForeColor = Color.White;
 
-                //Changes the color of the buttons.
                 create_car_btn.FlatStyle = FlatStyle.Flat;
                 create_car_btn.FlatAppearance.BorderColor = ColorTranslator.FromHtml("#2d2d2d");
                 create_car_btn.BackColor = ColorTranslator.FromHtml("#2d2d2d");
@@ -197,10 +188,16 @@ namespace CarShopGUI
                 credits_btn.BackColor = ColorTranslator.FromHtml("#2d2d2d");
                 credits_btn.ForeColor = Color.White;
 
+                exit_credits_btn.FlatStyle = FlatStyle.Flat;
+                exit_credits_btn.FlatAppearance.BorderColor = ColorTranslator.FromHtml("#2d2d2d");
+                exit_credits_btn.BackColor = ColorTranslator.FromHtml("#2d2d2d");
+                exit_credits_btn.ForeColor = Color.White;
+
                 theme_btn.FlatStyle = FlatStyle.Flat;
                 theme_btn.FlatAppearance.BorderColor = ColorTranslator.FromHtml("#2d2d2d");
                 theme_btn.BackColor = ColorTranslator.FromHtml("#2d2d2d");
                 theme_btn.ForeColor = Color.White;
+
             }
             else if (isDarkModeOn == true)
             {
@@ -208,7 +205,6 @@ namespace CarShopGUI
 
                 BackColor = default(Color);
 
-                //Changes the color of the background and the text for groups and lists.
                 addCarGroup.ForeColor = default(Color);
 
                 carInventoryGroup.BackColor = default(Color);
@@ -223,11 +219,9 @@ namespace CarShopGUI
                 lst_inventory.BackColor = default(Color);
                 lst_inventory.ForeColor = default(Color);
 
-                //Changes the color of the total labels.
                 total_txt_lbl.ForeColor = default(Color);
                 total_lbl.ForeColor = default(Color);
 
-                //Changes the color of the textboxes.
                 make_txt.BackColor = default(Color);
                 make_txt.ForeColor = default(Color);
                 model_txt.BackColor = default(Color);
@@ -235,7 +229,6 @@ namespace CarShopGUI
                 price_txt.BackColor = default(Color);
                 price_txt.ForeColor = default(Color);
 
-                //Changes the color of the buttons.
                 create_car_btn.FlatStyle = FlatStyle.Flat;
                 create_car_btn.FlatAppearance.BorderColor = default(Color);
                 create_car_btn.BackColor = default(Color);
@@ -256,36 +249,16 @@ namespace CarShopGUI
                 credits_btn.BackColor = default(Color);
                 credits_btn.ForeColor = default(Color);
 
+                exit_credits_btn.FlatStyle = FlatStyle.Flat;
+                exit_credits_btn.FlatAppearance.BorderColor = default(Color);
+                exit_credits_btn.BackColor = default(Color);
+                exit_credits_btn.ForeColor = default(Color);
+
                 theme_btn.FlatStyle = FlatStyle.Flat;
                 theme_btn.FlatAppearance.BorderColor = default(Color);
                 theme_btn.BackColor = default(Color);
                 theme_btn.ForeColor = default(Color);
-
             }
-            
         }
-
-        private void carInventoryLst_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        //udp protokol
-        //protected override void OnFormClosing(FormClosingEventArgs e)
-        //{
-        //    base.OnFormClosing(e);
-
-        //    if (e.CloseReason == CloseReason.WindowsShutDown) return;
-
-        //    // Confirm user wants to close
-        //    switch (MessageBox.Show(this, "Are you sure you want to close?", "Closing", MessageBoxButtons.YesNo))
-        //    {
-        //        case DialogResult.No:
-        //            e.Cancel = true;
-        //            break;
-        //        default:
-        //            break;
-        //    }
-        //}
     }
 }
