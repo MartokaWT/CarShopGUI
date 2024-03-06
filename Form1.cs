@@ -112,52 +112,52 @@ namespace CarShopGUI
 
                 BackColor = ColorTranslator.FromHtml("#1c1c1c");
 
-                addCarGroup.ForeColor = Color.White;
+                addCarGroup.ForeColor = ColorTranslator.FromHtml("#787878");
 
                 carInventoryGroup.BackColor = ColorTranslator.FromHtml("#1e1e1e");
-                carInventoryGroup.ForeColor = Color.White;
+                carInventoryGroup.ForeColor = ColorTranslator.FromHtml("#787878");
                 carInventoryGroup.FlatStyle = FlatStyle.Flat;
 
                 lst_cart.BackColor = ColorTranslator.FromHtml("#2d2d2d");
-                lst_cart.ForeColor = Color.White;
+                lst_cart.ForeColor = ColorTranslator.FromHtml("#787878");
 
                 shoppingCartGroup.BackColor = ColorTranslator.FromHtml("#1e1e1e");
-                shoppingCartGroup.ForeColor = Color.White;
+                shoppingCartGroup.ForeColor = ColorTranslator.FromHtml("#787878");
 
                 lst_inventory.BackColor = ColorTranslator.FromHtml("#2d2d2d");
-                lst_inventory.ForeColor = Color.White;
+                lst_inventory.ForeColor = ColorTranslator.FromHtml("#787878");
 
-                total_txt_lbl.ForeColor = Color.White;
-                total_lbl.ForeColor = Color.White;
+                total_txt_lbl.ForeColor = ColorTranslator.FromHtml("#787878");
+                total_lbl.ForeColor = ColorTranslator.FromHtml("#787878");
 
                 make_txt.BackColor = ColorTranslator.FromHtml("#2d2d2d");
-                make_txt.ForeColor = Color.White;
+                make_txt.ForeColor = ColorTranslator.FromHtml("#787878");
 
                 model_txt.BackColor = ColorTranslator.FromHtml("#2d2d2d");
-                model_txt.ForeColor = Color.White;
+                model_txt.ForeColor = ColorTranslator.FromHtml("#787878");
 
                 price_txt.BackColor = ColorTranslator.FromHtml("#2d2d2d");
-                price_txt.ForeColor = Color.White;
+                price_txt.ForeColor = ColorTranslator.FromHtml("#787878");
 
                 create_car_btn.FlatStyle = FlatStyle.Flat;
                 create_car_btn.FlatAppearance.BorderColor = ColorTranslator.FromHtml("#2d2d2d");
                 create_car_btn.BackColor = ColorTranslator.FromHtml("#2d2d2d");
-                create_car_btn.ForeColor = Color.White;
+                create_car_btn.ForeColor = ColorTranslator.FromHtml("#787878");
 
                 add_to_cart_btn.FlatStyle = FlatStyle.Flat;
                 add_to_cart_btn.FlatAppearance.BorderColor = ColorTranslator.FromHtml("#2d2d2d");
                 add_to_cart_btn.BackColor = ColorTranslator.FromHtml("#2d2d2d");
-                add_to_cart_btn.ForeColor = Color.White;
+                add_to_cart_btn.ForeColor = ColorTranslator.FromHtml("#787878");
 
                 checkout_btn.FlatStyle = FlatStyle.Flat;
                 checkout_btn.FlatAppearance.BorderColor = ColorTranslator.FromHtml("#2d2d2d");
                 checkout_btn.BackColor = ColorTranslator.FromHtml("#2d2d2d");
-                checkout_btn.ForeColor = Color.White;
+                checkout_btn.ForeColor = ColorTranslator.FromHtml("#787878");
 
                 theme_btn.FlatStyle = FlatStyle.Flat;
                 theme_btn.FlatAppearance.BorderColor = ColorTranslator.FromHtml("#2d2d2d");
                 theme_btn.BackColor = ColorTranslator.FromHtml("#2d2d2d");
-                theme_btn.ForeColor = Color.White;
+                theme_btn.ForeColor = ColorTranslator.FromHtml("#787878");
 
             }
             else if (isDarkModeOn == true)
