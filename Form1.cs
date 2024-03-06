@@ -30,8 +30,6 @@ namespace CarShopGUI
 
             lst_cart.DataSource = cartBindingSource;
             lst_cart.DisplayMember = ToString();
-
-            exit_credits_btn.Hide();
         }
 
         private void create_car_btn_Click(object sender, EventArgs e)
@@ -106,36 +104,6 @@ namespace CarShopGUI
             }
         }
 
-        private void credits_btn_Click(object sender, EventArgs e)
-        {
-            addCarGroup.Hide();
-            carInventoryGroup.Hide();
-            shoppingCartGroup.Hide();
-            add_to_cart_btn.Hide();
-            checkout_btn.Hide();
-            credits_btn.Hide();
-            total_txt_lbl.Hide();
-            total_lbl.Hide();
-            theme_btn.Hide();
-
-            exit_credits_btn.Show();
-        }
-
-        private void exit_credits_btn_Click(object sender, EventArgs e)
-        {
-            addCarGroup.Show();
-            carInventoryGroup.Show();
-            shoppingCartGroup.Show();
-            add_to_cart_btn.Show();
-            checkout_btn.Show();
-            credits_btn.Show();
-            total_txt_lbl.Show();
-            total_lbl.Show();
-            theme_btn.Show();
-
-            exit_credits_btn.Hide();
-        }
-
         private void theme_btn_Click(object sender, EventArgs e)
         {
             if (isDarkModeOn == false)
@@ -148,6 +116,7 @@ namespace CarShopGUI
 
                 carInventoryGroup.BackColor = ColorTranslator.FromHtml("#1e1e1e");
                 carInventoryGroup.ForeColor = Color.White;
+                carInventoryGroup.FlatStyle = FlatStyle.Flat;
 
                 lst_cart.BackColor = ColorTranslator.FromHtml("#2d2d2d");
                 lst_cart.ForeColor = Color.White;
@@ -163,8 +132,10 @@ namespace CarShopGUI
 
                 make_txt.BackColor = ColorTranslator.FromHtml("#2d2d2d");
                 make_txt.ForeColor = Color.White;
+
                 model_txt.BackColor = ColorTranslator.FromHtml("#2d2d2d");
                 model_txt.ForeColor = Color.White;
+
                 price_txt.BackColor = ColorTranslator.FromHtml("#2d2d2d");
                 price_txt.ForeColor = Color.White;
 
@@ -182,16 +153,6 @@ namespace CarShopGUI
                 checkout_btn.FlatAppearance.BorderColor = ColorTranslator.FromHtml("#2d2d2d");
                 checkout_btn.BackColor = ColorTranslator.FromHtml("#2d2d2d");
                 checkout_btn.ForeColor = Color.White;
-
-                credits_btn.FlatStyle = FlatStyle.Flat;
-                credits_btn.FlatAppearance.BorderColor = ColorTranslator.FromHtml("#2d2d2d");
-                credits_btn.BackColor = ColorTranslator.FromHtml("#2d2d2d");
-                credits_btn.ForeColor = Color.White;
-
-                exit_credits_btn.FlatStyle = FlatStyle.Flat;
-                exit_credits_btn.FlatAppearance.BorderColor = ColorTranslator.FromHtml("#2d2d2d");
-                exit_credits_btn.BackColor = ColorTranslator.FromHtml("#2d2d2d");
-                exit_credits_btn.ForeColor = Color.White;
 
                 theme_btn.FlatStyle = FlatStyle.Flat;
                 theme_btn.FlatAppearance.BorderColor = ColorTranslator.FromHtml("#2d2d2d");
@@ -224,8 +185,10 @@ namespace CarShopGUI
 
                 make_txt.BackColor = default(Color);
                 make_txt.ForeColor = default(Color);
+
                 model_txt.BackColor = default(Color);
                 model_txt.ForeColor = default(Color);
+
                 price_txt.BackColor = default(Color);
                 price_txt.ForeColor = default(Color);
 
@@ -243,16 +206,6 @@ namespace CarShopGUI
                 checkout_btn.FlatAppearance.BorderColor = default(Color);
                 checkout_btn.BackColor = default(Color);
                 checkout_btn.ForeColor = default(Color);
-
-                credits_btn.FlatStyle = FlatStyle.Flat;
-                credits_btn.FlatAppearance.BorderColor = default(Color);
-                credits_btn.BackColor = default(Color);
-                credits_btn.ForeColor = default(Color);
-
-                exit_credits_btn.FlatStyle = FlatStyle.Flat;
-                exit_credits_btn.FlatAppearance.BorderColor = default(Color);
-                exit_credits_btn.BackColor = default(Color);
-                exit_credits_btn.ForeColor = default(Color);
 
                 theme_btn.FlatStyle = FlatStyle.Flat;
                 theme_btn.FlatAppearance.BorderColor = default(Color);

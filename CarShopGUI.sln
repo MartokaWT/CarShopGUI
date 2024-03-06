@@ -5,7 +5,7 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarShopGUI", "CarShopGUI.csproj", "{D0EA8FC7-8008-43BC-90E8-AC7FD29E8E7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckoutTest", "..\CheckoutTest\CheckoutTest.csproj", "{3AADCFD8-A016-430C-A7B2-67E7EB12F79D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckoutTest", "..\CheckoutTest\CheckoutTest.csproj", "{3AADCFD8-A016-430C-A7B2-67E7EB12F79D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
