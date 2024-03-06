@@ -65,19 +65,19 @@
             this.addCarGroup.Margin = new System.Windows.Forms.Padding(4);
             this.addCarGroup.Name = "addCarGroup";
             this.addCarGroup.Padding = new System.Windows.Forms.Padding(4);
-            this.addCarGroup.Size = new System.Drawing.Size(267, 214);
+            this.addCarGroup.Size = new System.Drawing.Size(267, 230);
             this.addCarGroup.TabIndex = 0;
             this.addCarGroup.TabStop = false;
-            this.addCarGroup.Text = "Add car to list";
+            this.addCarGroup.Text = "Добави кола";
             // 
             // create_car_btn
             // 
             this.create_car_btn.Location = new System.Drawing.Point(87, 154);
             this.create_car_btn.Margin = new System.Windows.Forms.Padding(4);
             this.create_car_btn.Name = "create_car_btn";
-            this.create_car_btn.Size = new System.Drawing.Size(133, 34);
+            this.create_car_btn.Size = new System.Drawing.Size(133, 52);
             this.create_car_btn.TabIndex = 3;
-            this.create_car_btn.Text = "Add to inventory";
+            this.create_car_btn.Text = "Добави към инвентар";
             this.create_car_btn.UseVisualStyleBackColor = true;
             this.create_car_btn.Click += new System.EventHandler(this.create_car_btn_Click);
             // 
@@ -111,9 +111,9 @@
             this.price_lbl.Location = new System.Drawing.Point(11, 113);
             this.price_lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.price_lbl.Name = "price_lbl";
-            this.price_lbl.Size = new System.Drawing.Size(41, 16);
+            this.price_lbl.Size = new System.Drawing.Size(43, 16);
             this.price_lbl.TabIndex = 2;
-            this.price_lbl.Text = "Price:";
+            this.price_lbl.Text = "Цена:";
             // 
             // model_lbl
             // 
@@ -121,9 +121,9 @@
             this.model_lbl.Location = new System.Drawing.Point(11, 78);
             this.model_lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.model_lbl.Name = "model_lbl";
-            this.model_lbl.Size = new System.Drawing.Size(48, 16);
+            this.model_lbl.Size = new System.Drawing.Size(53, 16);
             this.model_lbl.TabIndex = 1;
-            this.model_lbl.Text = "Model:";
+            this.model_lbl.Text = "Модел:";
             // 
             // make_lbl
             // 
@@ -131,9 +131,9 @@
             this.make_lbl.Location = new System.Drawing.Point(11, 42);
             this.make_lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.make_lbl.Name = "make_lbl";
-            this.make_lbl.Size = new System.Drawing.Size(44, 16);
+            this.make_lbl.Size = new System.Drawing.Size(52, 16);
             this.make_lbl.TabIndex = 0;
-            this.make_lbl.Text = "Make:";
+            this.make_lbl.Text = "Марка:";
             // 
             // carInventoryGroup
             // 
@@ -145,7 +145,7 @@
             this.carInventoryGroup.Size = new System.Drawing.Size(293, 490);
             this.carInventoryGroup.TabIndex = 1;
             this.carInventoryGroup.TabStop = false;
-            this.carInventoryGroup.Text = "Car Inventory";
+            this.carInventoryGroup.Text = "Инвентар";
             this.carInventoryGroup.Enter += new System.EventHandler(this.carInventoryLst_Enter);
             // 
             // lst_inventory
@@ -169,7 +169,7 @@
             this.shoppingCartGroup.Size = new System.Drawing.Size(293, 490);
             this.shoppingCartGroup.TabIndex = 2;
             this.shoppingCartGroup.TabStop = false;
-            this.shoppingCartGroup.Text = "Shopping Cart";
+            this.shoppingCartGroup.Text = "Количка";
             // 
             // lst_cart
             // 
@@ -183,23 +183,23 @@
             // 
             // add_to_cart_btn
             // 
-            this.add_to_cart_btn.Location = new System.Drawing.Point(607, 170);
+            this.add_to_cart_btn.Location = new System.Drawing.Point(607, 145);
             this.add_to_cart_btn.Margin = new System.Windows.Forms.Padding(4);
             this.add_to_cart_btn.Name = "add_to_cart_btn";
-            this.add_to_cart_btn.Size = new System.Drawing.Size(133, 34);
+            this.add_to_cart_btn.Size = new System.Drawing.Size(133, 44);
             this.add_to_cart_btn.TabIndex = 6;
-            this.add_to_cart_btn.Text = "Add to cart -->";
+            this.add_to_cart_btn.Text = "Добави в количката -->";
             this.add_to_cart_btn.UseVisualStyleBackColor = true;
             this.add_to_cart_btn.Click += new System.EventHandler(this.add_to_cart_btn_Click);
             // 
             // checkout_btn
             // 
-            this.checkout_btn.Location = new System.Drawing.Point(607, 212);
+            this.checkout_btn.Location = new System.Drawing.Point(607, 197);
             this.checkout_btn.Margin = new System.Windows.Forms.Padding(4);
             this.checkout_btn.Name = "checkout_btn";
-            this.checkout_btn.Size = new System.Drawing.Size(133, 34);
+            this.checkout_btn.Size = new System.Drawing.Size(133, 44);
             this.checkout_btn.TabIndex = 7;
-            this.checkout_btn.Text = "Checkout";
+            this.checkout_btn.Text = "Купи";
             this.checkout_btn.UseVisualStyleBackColor = true;
             this.checkout_btn.Click += new System.EventHandler(this.checkout_btn_Click);
             // 
@@ -209,26 +209,26 @@
             this.total_txt_lbl.Location = new System.Drawing.Point(607, 258);
             this.total_txt_lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.total_txt_lbl.Name = "total_txt_lbl";
-            this.total_txt_lbl.Size = new System.Drawing.Size(71, 16);
+            this.total_txt_lbl.Size = new System.Drawing.Size(43, 16);
             this.total_txt_lbl.TabIndex = 8;
-            this.total_txt_lbl.Text = "Total Cost:";
+            this.total_txt_lbl.Text = "Цена:";
             // 
             // total_lbl
             // 
             this.total_lbl.AutoSize = true;
-            this.total_lbl.Location = new System.Drawing.Point(692, 258);
+            this.total_lbl.Location = new System.Drawing.Point(658, 258);
             this.total_lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.total_lbl.Name = "total_lbl";
-            this.total_lbl.Size = new System.Drawing.Size(38, 16);
+            this.total_lbl.Size = new System.Drawing.Size(53, 16);
             this.total_lbl.TabIndex = 9;
-            this.total_lbl.Text = "$0.00";
+            this.total_lbl.Text = "0.00 лв.";
             // 
             // credits_btn
             // 
-            this.credits_btn.Location = new System.Drawing.Point(607, 301);
+            this.credits_btn.Location = new System.Drawing.Point(13, 269);
             this.credits_btn.Margin = new System.Windows.Forms.Padding(4);
             this.credits_btn.Name = "credits_btn";
-            this.credits_btn.Size = new System.Drawing.Size(133, 34);
+            this.credits_btn.Size = new System.Drawing.Size(133, 44);
             this.credits_btn.TabIndex = 10;
             this.credits_btn.Text = "Credits";
             this.credits_btn.UseVisualStyleBackColor = true;
@@ -247,10 +247,10 @@
             // 
             // theme_btn
             // 
-            this.theme_btn.Location = new System.Drawing.Point(606, 343);
+            this.theme_btn.Location = new System.Drawing.Point(154, 269);
             this.theme_btn.Margin = new System.Windows.Forms.Padding(4);
             this.theme_btn.Name = "theme_btn";
-            this.theme_btn.Size = new System.Drawing.Size(133, 34);
+            this.theme_btn.Size = new System.Drawing.Size(133, 44);
             this.theme_btn.TabIndex = 12;
             this.theme_btn.Text = "Theme";
             this.theme_btn.UseVisualStyleBackColor = true;
