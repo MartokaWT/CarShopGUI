@@ -24,7 +24,7 @@
 
         public override string ToString()
         {
-            return $"Make: {Make} Model: {Model} Price: {Price}";
+            return $"Марка: {Make} Модел: {Model} Цена: {Price}";
         }
     }
 }

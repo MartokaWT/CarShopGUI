@@ -134,7 +134,7 @@
             this.carInventoryGroup.Controls.Add(this.lst_inventory);
             this.carInventoryGroup.Location = new System.Drawing.Point(229, 13);
             this.carInventoryGroup.Name = "carInventoryGroup";
-            this.carInventoryGroup.Size = new System.Drawing.Size(248, 398);
+            this.carInventoryGroup.Size = new System.Drawing.Size(275, 398);
             this.carInventoryGroup.TabIndex = 1;
             this.carInventoryGroup.TabStop = false;
             this.carInventoryGroup.Text = "Инвентар";
@@ -144,7 +144,7 @@
             this.add_to_cart_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
             this.add_to_cart_btn.Location = new System.Drawing.Point(6, 354);
             this.add_to_cart_btn.Name = "add_to_cart_btn";
-            this.add_to_cart_btn.Size = new System.Drawing.Size(236, 36);
+            this.add_to_cart_btn.Size = new System.Drawing.Size(263, 36);
             this.add_to_cart_btn.TabIndex = 6;
             this.add_to_cart_btn.Text = "Добави в количката";
             this.add_to_cart_btn.UseVisualStyleBackColor = true;
@@ -153,29 +153,33 @@
             // lst_inventory
             // 
             this.lst_inventory.BackColor = System.Drawing.Color.White;
+            this.lst_inventory.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F);
             this.lst_inventory.FormattingEnabled = true;
+            this.lst_inventory.ItemHeight = 16;
             this.lst_inventory.Location = new System.Drawing.Point(6, 19);
             this.lst_inventory.Name = "lst_inventory";
-            this.lst_inventory.Size = new System.Drawing.Size(236, 329);
+            this.lst_inventory.Size = new System.Drawing.Size(263, 324);
             this.lst_inventory.TabIndex = 0;
             // 
             // shoppingCartGroup
             // 
             this.shoppingCartGroup.Controls.Add(this.lst_cart);
             this.shoppingCartGroup.Controls.Add(this.checkout_btn);
-            this.shoppingCartGroup.Location = new System.Drawing.Point(529, 13);
+            this.shoppingCartGroup.Location = new System.Drawing.Point(513, 13);
             this.shoppingCartGroup.Name = "shoppingCartGroup";
-            this.shoppingCartGroup.Size = new System.Drawing.Size(248, 398);
+            this.shoppingCartGroup.Size = new System.Drawing.Size(275, 398);
             this.shoppingCartGroup.TabIndex = 2;
             this.shoppingCartGroup.TabStop = false;
             this.shoppingCartGroup.Text = "Количка";
             // 
             // lst_cart
             // 
+            this.lst_cart.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F);
             this.lst_cart.FormattingEnabled = true;
+            this.lst_cart.ItemHeight = 16;
             this.lst_cart.Location = new System.Drawing.Point(6, 19);
             this.lst_cart.Name = "lst_cart";
-            this.lst_cart.Size = new System.Drawing.Size(236, 329);
+            this.lst_cart.Size = new System.Drawing.Size(263, 324);
             this.lst_cart.TabIndex = 0;
             // 
             // checkout_btn
@@ -183,7 +187,7 @@
             this.checkout_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
             this.checkout_btn.Location = new System.Drawing.Point(6, 354);
             this.checkout_btn.Name = "checkout_btn";
-            this.checkout_btn.Size = new System.Drawing.Size(236, 36);
+            this.checkout_btn.Size = new System.Drawing.Size(263, 36);
             this.checkout_btn.TabIndex = 7;
             this.checkout_btn.Text = "Купи";
             this.checkout_btn.UseVisualStyleBackColor = true;

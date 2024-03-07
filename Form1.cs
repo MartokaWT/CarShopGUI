@@ -49,7 +49,7 @@ namespace CarShopGUI
                     carInventoryBindingSource.ResetBindings(false);
                     make_txt.Text = " ";
                     model_txt.Text = " ";
-                    price_txt.Text = " ";  
+                    price_txt.Text = " ";
                 }
 
             }
@@ -60,6 +60,10 @@ namespace CarShopGUI
             catch (FormatException)
             {
                 MessageBox.Show("Входното цисло трябва да е цифра!");
+            }
+            catch (OverflowException)
+            {
+                MessageBox.Show("Числото е твърде голямо!");
             }
         }
 
